@@ -10,7 +10,7 @@ pub fn minus(one: i32, two: i32) -> i32 {
     if one > two {
         one - two
     }else{
-        0
+        -1
     }
 }
 
