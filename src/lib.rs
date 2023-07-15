@@ -25,7 +25,7 @@ impl Server {
 
     pub fn start(self) {
         let socket = TcpListener::bind(format!("{}:{}", self.addr, self.port)).unwrap();
-        println!("server run at {}:{}", addr, port);
+        println!("server run at {}:{}", self.addr, self.port);
     }
 }
 
